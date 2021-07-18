@@ -6,28 +6,10 @@ app.use(express.json());
 const atm=require('./atm');
 const denomination_calc=require('./denomination').denomination_cal;
 
-mongoose.connect('mongodb+srv://adish:Oyebhai@104@cluster1.0b6kt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true }, { useUnifiedTopology: true });
+mongoose.connect('Please enter your MongoDB URI', { useNewUrlParser: true }, { useUnifiedTopology: true });
 
 
 
-//Different type of denomination and quantity of notes
-notesArray = [{
-    denomination: 100,
-    quantity: 250
-},
-{
-    denomination: 200,
-    quantity: 125
-},
-{
-    denomination: 500,
-    quantity: 52
-},
-{
-    denomination: 2000,
-    quantity: 12
-}
-]
 
 
 
