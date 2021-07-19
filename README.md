@@ -17,7 +17,7 @@ Note:- Do enter your Mongo URI when conecting to mongoose
 
 6. And  have done checks for amount entered plus the denomination selected.
 
-7. As discussed on mail, I have made APIs. let me know if frontend is needed.
+
 
 
 
